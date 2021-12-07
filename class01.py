@@ -37,7 +37,8 @@ class WildCat(Cat):
 
 
 
-animals = []
+animals = [] # global variable
+
 rover = Dog("Dog", "Rover", "Brown")
 animals.append(rover)
 animals.append(Cat("Cat", "Felix", "Black"))
