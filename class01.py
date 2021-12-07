@@ -1,4 +1,5 @@
 # sample classes
+# this is a change for GIT
 class Animal:
     def __init__(self, breed, name, color, legs = 4):
         self.breed = breed
